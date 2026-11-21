@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Prompt image budget">
+  <g fill="none" stroke="#4c6ef5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="4" y="7" width="16" height="13" rx="2" />
+    <rect x="16" y="16" width="16" height="13" rx="2" fill="#4c6ef5" fill-opacity="0.12" />
+  </g>
+  <g fill="#4c6ef5">
+    <circle cx="9" cy="12" r="1.6" />
+    <circle cx="21" cy="21" r="1.6" />
+  </g>
+  <g fill="none" stroke="#4c6ef5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M6.5 17.5 L10.5 13 L14 16.5 L17 13.5" />
+    <path d="M18.5 26.5 L22.5 22 L26 25.5 L29 22.5" />
+  </g>
+</svg>
