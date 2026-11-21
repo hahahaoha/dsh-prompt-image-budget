@@ -1,0 +1,12 @@
+# Prompt image budget bundle patch.
+#
+# One row: the Host plugin that trims the oldest images out of each model
+# request once the prompt would carry more than `maxImages` of them.
+#
+# A patch replaces the targeted row's whole `config`, so this file always
+# restates every field the row needs.
+- insert:
+    - id: prompt-image-budget
+      name: '@local/prompt-image-budget'
+      config:
+        maxImages: 8
