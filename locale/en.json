@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Prompt image budget",
+    "description": "Caps how many images one model request carries. Before each step, when the prompt would send more than the configured number of images, the oldest surplus images are replaced with text placeholders naming the image, its dimensions, and its read-only saved path when one is available. The omission is recorded in the session log, so later requests, resume, fork, and compaction replay the same placeholders. Images already committed to the session can only be trimmed while the image-offload row is enabled; otherwise the current prompt is trimmed and a warning reports any budget the request still exceeds. Turning the plugin off stops new trimming."
+  }
+}
